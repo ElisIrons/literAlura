@@ -1,4 +1,8 @@
 <h1 align="center"> 📚 LiterAlura 📚</h1>
+<p align="center">
+  <img src="https://github.com/ElisIrons/literAlura/assets/86434261/37d25aa2-0ec0-4d35-8833-fb20efcc6de7"
+" alt="badge literalura" width="300" />
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Java-brightgreen" alt="Java" />
