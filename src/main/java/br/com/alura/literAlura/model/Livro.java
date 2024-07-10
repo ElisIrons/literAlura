@@ -29,7 +29,6 @@ public class Livro {
         this.numero_downloads = livroDTO.numeroDownloads();
     }
 
-    // Getters e Setters
 
     public String getTitulo() {
         return titulo;
