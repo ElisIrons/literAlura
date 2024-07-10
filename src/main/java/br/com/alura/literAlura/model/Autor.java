@@ -13,7 +13,7 @@ public class Autor {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
-    private int anoNascimento;
+    private Integer anoNascimento;
     private Integer anoFalecimento;
 
     @OneToMany(mappedBy = "autor", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
@@ -27,13 +27,11 @@ public class Autor {
         this.anoFalecimento = autorDTO.anoFalecimento() == 0 ? null : autorDTO.anoFalecimento();
     }
 
-    // Getters e Setters
-
     public String getNome() {
         return nome;
     }
 
-    public int getAnoNascimento() {
+    public Integer getAnoNascimento() {
         return anoNascimento;
     }
 
